@@ -1,0 +1,11 @@
+--- velvet.orig/src/readSet.c
++++ velvet/src/readSet.c
+@@ -27,7 +27,7 @@
+ #include "globals.h"
+ #include "tightString.h"
+ #include "readSet.h"
+-#include "../third-party/zlib-1.2.3/zlib.h"
++#include <zlib.h>
+ 
+ ReadSet *newReadSet()
+ {
