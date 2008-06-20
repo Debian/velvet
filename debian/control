@@ -1,15 +1,19 @@
 Source: velvet
 Section: science
 Priority: optional
-Maintainer: Charles Plessy <plessy@debian.org>
-Build-Depends: cdbs, debhelper (>= 7), quilt
+Maintainer: Debian-Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+DM-Upload-Allowed: yes
+Uploader: Charles Plessy <plessy@debian.org>
+Build-Depends: cdbs, debhelper (>= 7), quilt, zlib1g-dev
 Standards-Version: 3.7.3
 Homepage: http://www.ebi.ac.uk/~zerbino/velvet/
+Vcs-Browser: http://svn.debian.org/wsvn/debian-med/trunk/packages/velvet/trunk/?rev=0&sc=0
+Vcs-Svn: svn://svn.debian.org/svn/debian-med/trunk/packages/velvet/trunk/
 
 Package: velvet
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Sequence assembler for very short reads
+Description: Nucleic acid sequence assembler for very short reads
  Velvet is a de novo genomic assembler specially designed for short read
  sequencing technologies, such as Solexa or 454, developed by Daniel Zerbino and
  Ewan Birney at the European Bioinformatics Institute (EMBL-EBI), near
