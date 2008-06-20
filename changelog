@@ -1,6 +1,6 @@
 velvet (0.6.03-1) UNRELEASED; urgency=low
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release (Closes: #487026)
 
  -- Charles Plessy <plessy@debian.org>  Thu, 19 Jun 2008 11:57:43 +0900
 
