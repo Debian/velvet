@@ -1,28 +1,19 @@
-Upstream tarball has not been checked throuroughly yet, but there is at least a
-PDF manual without source.
+X-Format-Specification: http://wiki.debian.org/Proposals/CopyrightFormat
+X-Debianized-By: Charles Plessy <plessy@debian.org>
+X-Debinized-Date: Thu, 19 Jun 2008 11:57:43 +0900.
+X-Upstream-Author: Daniel Zerbino,
+ John-Mark Gurney (Fibonacci heap implementation),
+ Guy Slater (memory management routines),
+ Ewan Birney (hashing function)
+X-Homepage: http://www.ebi.ac.uk/~zerbino/velvet/
 
+Files: *
+Copyright: (C) 2006-2008 Daniel Zerbino
+License: GPL
+X-Comment: On Debian systems, the complete text of the GNU General Public
+ License can be found in `/usr/share/common-licenses/GPL'.
 
-This package was debianized by Charles Plessy <plessy@debian.org> on
-Thu, 19 Jun 2008 11:57:43 +0900.
-
-It was downloaded from <url://example.com>
-
-Upstream Author(s): 
-
-    <put author's name and email here>
-    <likewise for another author>
-
-Copyright: 
-
-    <Copyright (C) YYYY Name OfAuthor>
-    <likewise for another author>
-
-License:
-
-    <Put the license of the package here indented by 4 spaces>
-
-The Debian packaging is (C) 2008, Charles Plessy <plessy@debian.org> and
-is licensed under the same terms as Velvet itself.
-
-# Please also look if there are files or directories which have a
-# different copyright/license attached and list them here.
+Files: debian/*
+Copyright: 2008 Andreas Tille <tille@debian.org>,
+ Charles Plessy <plessy@debian.org>
+License: Same as velvet
