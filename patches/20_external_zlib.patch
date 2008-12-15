@@ -1,0 +1,35 @@
+--- velvet_0.7.20.orig/src/readSet.c
++++ velvet_0.7.20/src/readSet.c
+@@ -28,11 +28,7 @@
+ #include "tightString.h"
+ #include "readSet.h"
+ 
+-#if defined(_WIN32) || defined(__WIN32__) || defined(WIN32)
+-#include "../third-party/zlib-1.2.3/Win32/include/zlib.h"
+-#else
+-#include "../third-party/zlib-1.2.3/zlib.h"
+-#endif
++#include "zlib.h"
+ 
+ ReadSet *newReadSet()
+ {
+--- velvet_0.7.20.orig/Makefile
++++ velvet_0.7.20/Makefile
+@@ -7,6 +7,7 @@
+ 
+ Z_LIB_DIR=third-party/zlib-1.2.3
+ Z_LIB_FILES=$(Z_LIB_DIR)/*.o
++Z_LIB_INC=$(ZLIB_DIR)
+ 
+ # Mac OS users: uncomment the following lines
+ # Z_LIB_FILES=
+@@ -59,7 +60,7 @@
+ 	mkdir -p obj/dbg
+ 
+ obj/%.o: src/%.c
+-	$(CC) $(CFLAGS) $(OPT) $(DEF) -c $? -o $@ 
++	$(CC) $(CFLAGS) $(OPT) -I$(Z_LIB_INC) $(DEF) -c $? -o $@
+ 
+ obj/dbg/%.o: src/%.c
+-	$(CC) $(CFLAGS) $(DEBUG) $(DEF) -c $? -o $@ 
++	$(CC) $(CFLAGS) $(DEBUG) -I$(Z_LIB_INC) $(DEF) -c $? -o $@
