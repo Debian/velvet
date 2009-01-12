@@ -1,3 +1,7 @@
+Author: Andreas Tille
+Description: To build velvet on Debian's zlib
+License: Same as velvet
+Forwarded: Daniel Zerbino (zerbino <at> ebi <dot> ac <dot> uk)
 --- velvet_0.7.20.orig/src/readSet.c
 +++ velvet_0.7.20/src/readSet.c
 @@ -28,11 +28,7 @@
