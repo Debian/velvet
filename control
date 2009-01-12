@@ -31,6 +31,7 @@ Description: Nucleic acid sequence assembler for very short reads
 
 Package: velvet-example
 Architecture: all
-Description: Example data for the Velvet sequence assembler.
+Depends: ${misc:Depends}
+Description: Example data for the Velvet sequence assembler
  This package contains the example data distributed in the sources of Velvet,
  a de novo genomic assembler. 

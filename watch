@@ -1,12 +1,2 @@
 version=3
-
-# just make the 'latest' link very low to obtain the tarball with real version number
-# Unfortunately the latest version number is not linked explicitely at the upstream
-# homepage - ask upstream to use an explicite link?
-# At least the file exists on the webserver if you try to download it
-
-opts="uversionmangle=s/latest/0.0.0/" \
-http://www.ebi.ac.uk/~zerbino/velvet velvet_(.*)\.tgz
-
-# opts="uversionmangle=s/latest/0.0.0/" \
-# http://www.ebi.ac.uk/~zerbino/velvet/velvet_(.*)\.tgz
+http://www.ebi.ac.uk/~zerbino/velvet/velvet_([.\d]*).tgz
