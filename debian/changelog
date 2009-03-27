@@ -1,8 +1,15 @@
-velvet (0.7.30-1) UNRELEASED; urgency=low
+velvet (0.7.31-1) UNRELEASED; urgency=low
 
   * New upstream version
+  * Standards-Version: 3.8.1 (no changes needed)
+  * Create manpages using help2man
+  * Move third-party/layout and third-party/afg_handling to examples
+    because these scripts are actually not to run velvet but for
+    the convenience of users - in /urs/share/velvet these scripts
+    seem to be perfectly hidden and in /usr/share/doc/velvet might
+    create users attendance
 
- -- Andreas Tille <tille@debian.org>  Fri, 06 Mar 2009 14:50:52 +0100
+ -- Andreas Tille <tille@debian.org>  Fri, 27 Mar 2009 13:23:32 +0100
 
 velvet (0.7.24-1) unstable; urgency=low
 

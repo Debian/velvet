@@ -5,4 +5,14 @@ DEB_COMPRESS_EXCLUDE := .pdf	# The PDF doc will not be compressed
 include /usr/share/cdbs/1/rules/debhelper.mk
 include /usr/share/cdbs/1/class/makefile.mk
 
+pkg=velvet
+
 DEB_MAKE_BUILD_TARGET = obj velveth velvetg Z_LIB_FILES='' LDFLAGS='-lm -lz' OPT='' Z_LIB_INC='/usr/include'
+
+build/velvet::
+	mkdir -p $(CURDIR)/debian/$(pkg)/usr/share/man/man1/
+	help2man --no-info --name="simple hashing program" \
+	         $(CURDIR)/velveth > $(CURDIR)/debian/$(pkg)/usr/share/man/man1/velveth.1
+	help2man --no-info --version-option=" " \
+	         --name="de Bruijn graph construction, error removal and repeat resolution" \
+	         $(CURDIR)/velvetg > $(CURDIR)/debian/$(pkg)/usr/share/man/man1/velvetg.1
