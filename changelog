@@ -1,4 +1,4 @@
-velvet (0.7.31-1) UNRELEASED; urgency=low
+velvet (0.7.31-1) unstable; urgency=low
 
   * New upstream version
   * Standards-Version: 3.8.1 (no changes needed)
@@ -8,6 +8,7 @@ velvet (0.7.31-1) UNRELEASED; urgency=low
     the convenience of users - in /urs/share/velvet these scripts
     seem to be perfectly hidden and in /usr/share/doc/velvet might
     create users attendance
+  * Added missing quilt entry in debian/rules
 
  -- Andreas Tille <tille@debian.org>  Fri, 27 Mar 2009 13:23:32 +0100
 
