@@ -1,3 +1,16 @@
+velvet (0.7.34-1) unstable; urgency=low
+
+  * New upstream release correcting multiple bugs, changing the stats output,
+    allowing optional scaffolding and multiple rounds of Pebble.
+  * Added the programs velveth_de and velvetg_de to the package in /usr/bin,
+    and the scripts shuffleSequences_fasta.pl and shuffleSequences_fastq.pl in
+    /usr/share/velvet (debian/rules, debian/install).
+  * Refreshed debian/copyright. 
+  * Temporarly disabled the manpage generation of velvetg* because the --help
+    option is not available (debian/rules).
+
+ -- Charles Plessy <plessy@debian.org>  Tue, 09 Jun 2009 21:28:03 +0900
+
 velvet (0.7.31-1) unstable; urgency=low
 
   * New upstream version
