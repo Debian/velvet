@@ -1,3 +1,18 @@
+velvet (0.7.37-1) unstable; urgency=low
+
+  * New upstream release. 
+    - Small formatting change to error messages
+    - K > 31 now possible
+    - --help option corrected for velvetg
+    - Acceleration of k-mer operations (comparable to 64bit int performance)
+    - Fixed variable lengths
+    - Reordered struct declaration for more efficent memory alignment
+  * debian/rules:
+    - Restored manpage generation for velvetg*.
+    - Added forgotten CFLAGS for the colorspace building.
+
+ -- Charles Plessy <plessy@debian.org>  Sat, 27 Jun 2009 12:27:27 +0900
+
 velvet (0.7.34-1) unstable; urgency=low
 
   * New upstream release correcting multiple bugs, changing the stats output,
