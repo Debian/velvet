@@ -5,8 +5,8 @@ Maintainer: Debian-Med Packaging Team <debian-med-packaging@lists.alioth.debian.
 DM-Upload-Allowed: yes
 Uploaders: Charles Plessy <plessy@debian.org>,
  Andreas Tille <tille@debian.org>
-Build-Depends: cdbs, debhelper (>= 7), zlib1g-dev, quilt, help2man
-Standards-Version: 3.8.1
+Build-Depends: cdbs, debhelper (>= 7), zlib1g-dev, help2man
+Standards-Version: 3.8.2
 Homepage: http://www.ebi.ac.uk/~zerbino/velvet/
 Vcs-Browser: http://svn.debian.org/wsvn/debian-med/trunk/packages/velvet/trunk/?rev=0&sc=0
 Vcs-Svn: svn://svn.debian.org/svn/debian-med/trunk/packages/velvet/trunk/
@@ -24,10 +24,6 @@ Description: Nucleic acid sequence assembler for very short reads
  Velvet currently takes in short read sequences, removes errors then produces
  high quality unique contigs. It then uses paired read information, if
  available, to retrieve the repeated areas between contigs.
- .
- Velvet was published in: `Velvet: algorithms for de novo short read assembly
- using de Bruijn graphs.  D.R. Zerbino and E. Birney. Genome Research
- 18:821-829.'
 
 Package: velvet-example
 Architecture: all
