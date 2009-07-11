@@ -1,3 +1,21 @@
+velvet (0.7.44-1) unstable; urgency=low
+
+  * New upstream release.
+  * Added bibliographic information in BibTeX format in debian/references.
+  * debian/rules: touch zlib to avoid third-party zlib to be built.
+  * Removed ‘debian/patches/20_external_zlib.patch’. Passing apropriate
+    variables in debian/rules is enough to build dynamically on Debian's
+    zlib.
+  * Removed the quilt patch system (debian/control, debian/README.source
+    debian/rules).
+  * Incremented Standards-Version in debian/control to reflect conformance
+    with Policy 3.8.2 (no changes needed).
+  * Corrected the installation of files that were moved from the
+    ‘third-party’ directory to the ‘contrib’ directory.
+  * Experimentation on debian/copyright.
+
+ -- Charles Plessy <plessy@debian.org>  Sun, 12 Jul 2009 00:24:56 +0900
+
 velvet (0.7.37-1) unstable; urgency=low
 
   * New upstream release. 

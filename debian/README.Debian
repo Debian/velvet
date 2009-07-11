@@ -1,6 +1,6 @@
-velvet for Debian
+Velvet for Debian
 -----------------
 
-Third party scripts have been placed in /usr/share/velvet.
+Third party scripts have been placed in ‘/usr/share/velvet/contrib’.
 
- -- Charles Plessy <plessy@debian.org>  Tue, 13 Jan 2009 00:06:25 +0900
+ -- Charles Plessy <plessy@debian.org>  Sat, 11 Jul 2009 18:06:40 +0900
