@@ -1,3 +1,11 @@
+velvet (0.7.47-1) unstable; urgency=low
+
+  * New upstream release correcting bugs and enhancing documentation.
+  * Multi-Arch support (‘foreign’) in debian/control.
+  * Corrected debian/install to avoid ugly ‘contrib/contrib’ location.
+
+ -- Charles Plessy <plessy@debian.org>  Thu, 30 Jul 2009 13:43:13 +0900
+
 velvet (0.7.44-1) unstable; urgency=low
 
   * New upstream release.

@@ -13,6 +13,7 @@ Vcs-Svn: svn://svn.debian.org/svn/debian-med/trunk/packages/velvet/trunk/
 
 Package: velvet
 Architecture: any
+Multi-Arch: foreign
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: velvet-example
 Description: Nucleic acid sequence assembler for very short reads
