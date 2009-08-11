@@ -1,3 +1,13 @@
+velvet (0.7.48-1) unstable; urgency=low
+
+  * New upstream release:
+    - Accelerated concatenation (pre-graph and graph)
+    - Unlimited contig size
+    - Bug in parsing FASTA files with very long lines
+    - Parsing bug in snp_view.pl script
+
+ -- Charles Plessy <plessy@debian.org>  Tue, 11 Aug 2009 19:54:03 +0900
+
 velvet (0.7.47-1) unstable; urgency=low
 
   * New upstream release correcting bugs and enhancing documentation.
