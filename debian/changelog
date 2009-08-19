@@ -9,6 +9,8 @@ velvet (0.7.50-1) UNRELEASED; urgency=low
     - Updated the FastA -> AGP script
     - Added the observed-insert-length script
     - Small parsing bug in simplified read import
+  * Incremented Standards-Version in debian/control to reflect conformance
+      with Policy 3.8.3 (no changes needed).
 
  -- Charles Plessy <plessy@debian.org>  Wed, 19 Aug 2009 21:58:49 +0900
 
