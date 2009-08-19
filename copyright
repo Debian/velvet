@@ -2,11 +2,12 @@ Machine-readable license summary, see ‘http://dep.debian.net/deps/dep5/’.
 
 Name    :  Velvet
 Contact :  Daniel Zerbino <zerbino@ebi.ac.uk>
-Source  :  http://www.ebi.ac.uk/~zerbino/velvet/velvet_0.7.48.tgz
+Source  :  http://www.ebi.ac.uk/~zerbino/velvet/velvet_0.7.50.tgz
 
 Copyright: © 2006-2009 Daniel Zerbino <zerbino@ebi.ac.uk>
            © 2000-2005 Guy St.C. Slater <guy@ebi.ac.uk>
-           ©   2009    John Marshall (jm18@sanger.ac.uk)
+           ©   2009    John Marshall <jm18@sanger.ac.uk>
+           ©   2009    David Studholme <david.studholme@tsl.ac.uk>
 License: GPL-2+
 	
 	Velvet is free software; you can redistribute it and/or modify
@@ -106,8 +107,10 @@ Files: contrib/layout/*
 Copyright: © 2008 Paul Harrison (pfh@logarithmic.net)
 License: GPL-2+
 
-Files: contrib/estimate-exp_cov/velvet-estimate-exp_cov.pl
+Files: contrib/estimate-exp_cov/velvet-estimate-exp_cov.pl,
+       contrib/observed-insert-length.pl/observed-insert-length.pl
 Copyright: 2009, Torsten Seemann
+           2009, Daniel Zerbino
 License: GPL-3+
 	This program is free software: you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by
