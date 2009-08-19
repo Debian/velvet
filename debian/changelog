@@ -1,3 +1,17 @@
+velvet (0.7.50-1) UNRELEASED; urgency=low
+
+  * New upstream release:
+    V 0.7.49
+    - Added the optional output of unused reads
+    - Added David Studholme's FastA -> AGP script
+    V 0.7.50
+    - Added the extractContigReads script
+    - Updated the FastA -> AGP script
+    - Added the observed-insert-length script
+    - Small parsing bug in simplified read import
+
+ -- Charles Plessy <plessy@debian.org>  Wed, 19 Aug 2009 21:58:49 +0900
+
 velvet (0.7.48-1) unstable; urgency=low
 
   * New upstream release:
