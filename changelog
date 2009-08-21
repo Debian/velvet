@@ -1,4 +1,11 @@
-velvet (0.7.50-1) UNRELEASED; urgency=low
+velvet (0.7.50-2) UNRELEASED; urgency=low
+
+  * Replaced the UNRELEASED tag by ‘unstable’ in debian/changelog as
+    0.7.50-1 was really uploaded and accepted by the archive.
+
+ -- Charles Plessy <plessy@debian.org>  Fri, 21 Aug 2009 13:19:01 +0900
+
+velvet (0.7.50-1) unstable; urgency=low
 
   * New upstream release:
     V 0.7.49
