@@ -1,3 +1,12 @@
+velvet (0.7.53-1) unstable; urgency=low
+
+  * New upstream release:
+    - Ignored reads in Pebble corrected
+    - Added automatic measure of median coverage and median insert length
+    - Updated manual to cover the above
+
+ -- Charles Plessy <plessy@debian.org>  Fri, 04 Sep 2009 13:42:22 +0900
+
 velvet (0.7.52-1) unstable; urgency=low
 
   * New upstream release:
