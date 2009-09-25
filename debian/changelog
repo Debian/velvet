@@ -1,3 +1,9 @@
+velvet (0.7.55-1) unstable; urgency=low
+
+  * New upstream version
+
+ -- Andreas Tille <tille@debian.org>  Fri, 25 Sep 2009 14:52:41 +0200
+
 velvet (0.7.53-1) unstable; urgency=low
 
   * New upstream release:
