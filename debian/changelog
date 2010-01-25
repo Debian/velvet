@@ -1,3 +1,18 @@
+velvet (0.7.56~nozlibcopy-1) unstable; urgency=low
+
+  * New upstream version.
+  * Repackaged the upstream directory to remove the convenience copy
+    of the zlib. Documented this in ‘debian/README.source’.
+    Closes: #561433.
+  * Updated debian/copyright.
+  * Added ‘include_debians_zlib.patch’ to enforce the use of
+    /usr/include/zlib.h. This patch is applied using CDBS, see
+    ‘debian/rules’ and ‘debian/README.source’.
+  * Renamed ‘debian/reference’ ‘debian/upstream-metadata.yaml’ and
+    centralised upstream-specific information there.
+
+ -- Charles Plessy <plessy@debian.org>  Mon, 25 Jan 2010 13:03:06 +0900
+
 velvet (0.7.55-1) unstable; urgency=low
 
   * New upstream version
