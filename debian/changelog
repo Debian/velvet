@@ -1,3 +1,9 @@
+velvet (0.7.56~nozlibcopy-2) UNRELEASED; urgency=low
+
+  * Fixed watch file to make sure it is not supporting newer upstream
+
+ -- Andreas Tille <tille@debian.org>  Tue, 26 Jan 2010 11:44:15 +0100
+
 velvet (0.7.56~nozlibcopy-1) unstable; urgency=low
 
   * New upstream version.
