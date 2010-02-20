@@ -1,8 +1,15 @@
-velvet (0.7.56~nozlibcopy-2) UNRELEASED; urgency=low
+velvet (0.7.59~nozlibcopy-1) unstable; urgency=low
 
+  * New upstream release
+
+  [ Charles Plessy ]
+  * Incremented Standard-Version in debian/control to reflect conformance
+    with Policy 3.8.4 (no changes needed).
+
+  [ Andreas Tille ]
   * Fixed watch file to make sure it is not supporting newer upstream
 
- -- Andreas Tille <tille@debian.org>  Tue, 26 Jan 2010 11:44:15 +0100
+ -- Charles Plessy <plessy@debian.org>  Sat, 20 Feb 2010 13:00:13 +0900
 
 velvet (0.7.56~nozlibcopy-1) unstable; urgency=low
 
