@@ -1,3 +1,20 @@
+velvet (1.0.02~nozlibcopy-1) unstable; urgency=low
+
+  * New upstream version
+  * Source format 3.0 (quilt)
+  * debian/control:
+    - Recommends: python (some new scripts in /usr/share/velvet/contrib
+      are Python scripts)
+    - Build-Depends: quilt
+  * debian/rules:
+    include /usr/share/cdbs/1/rules/patchsys-quilt.mk
+    (instead of simple-patchsys)
+  * debian/patches: Switch to quilt
+  * debian/patches/shuffleSequences_fasta.patch:
+    Add interpreter to Python script
+
+ -- Andreas Tille <tille@debian.org>  Thu, 24 Jun 2010 15:41:53 +0200
+
 velvet (0.7.61~nozlibcopy-1) unstable; urgency=low
 
   * New upstream version

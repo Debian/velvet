@@ -5,7 +5,7 @@ Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.
 DM-Upload-Allowed: yes
 Uploaders: Charles Plessy <plessy@debian.org>,
  Andreas Tille <tille@debian.org>
-Build-Depends: cdbs, debhelper (>= 7.1), zlib1g-dev, help2man
+Build-Depends: cdbs, debhelper (>= 7.1), zlib1g-dev, help2man, quilt
 Standards-Version: 3.8.4
 Homepage: http://www.ebi.ac.uk/~zerbino/velvet/
 Vcs-Browser: http://svn.debian.org/wsvn/debian-med/trunk/packages/velvet/trunk/?rev=0&sc=0
@@ -15,6 +15,7 @@ Package: velvet
 Architecture: any
 Multi-Arch: foreign
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: python
 Suggests: velvet-example
 Description: Nucleic acid sequence assembler for very short reads
  Velvet is a de novo genomic assembler specially designed for short read
