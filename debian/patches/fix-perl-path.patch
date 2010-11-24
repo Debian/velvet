@@ -1,0 +1,11 @@
+Description: s?/usr/local/perl?/usr/perl?
+Author: Andreas Tille <tille@debian.org>
+Forwarded: No
+--- velvet_1.0.15~nozlibcopy.orig/contrib/select_paired/select_paired.pl
++++ velvet_1.0.15~nozlibcopy/contrib/select_paired/select_paired.pl
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ # Konrad Paszkiewicz, University of Exeter UK.
+ # k.h.paszkiewicz@exeter.ac.uk
+ 

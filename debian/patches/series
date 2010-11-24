@@ -1,0 +1,3 @@
+include_debians_zlib.patch
+shuffleSequences_fasta.patch
+fix-perl-path.patch
