@@ -1,3 +1,13 @@
+velvet (1.0.15~nozlibcopy-1) unstable; urgency=low
+
+  * New upstream source
+  * Standards-Version: 3.9.1 (no changes needed)
+  * debian/get-upstream-source: Remove precompiled *.o files and
+    .DS_Store files once we are repackaging anyway
+  * debian/patches/fix-perl-path.patch: Fix Perl path
+
+ -- Andreas Tille <tille@debian.org>  Wed, 24 Nov 2010 15:42:33 +0100
+
 velvet (1.0.02~nozlibcopy-1) unstable; urgency=low
 
   * New upstream version

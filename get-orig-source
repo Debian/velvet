@@ -15,6 +15,14 @@ UPSTREAMDIR="${PKG}_${VERSION}"
 mv ../${UPSTREAMDIR}.tgz .
 tar -xzf ${UPSTREAMDIR}.tgz
 rm -rf ${UPSTREAMDIR}/third-party
+
+## Deletue useless binaries once we are changing the original tarball anyway
+# delete precompiled object files
+# rm -f ${UPSTREAMDIR}/obj/*.o
+find ${UPSTREAMDIR} -name "*.o" -exec rm -f \{\} \;
+# delete .DS_Store files
+find ${UPSTREAMDIR} -name .DS_Store -exec rm -f \{\} \;
+
 mv ${UPSTREAMDIR} ${UPSTREAMDIR}~nozlibcopy
 
 GZIP=-9 tar -czf "$PKG"_"$VERSION~nozlibcopy".orig.tar.gz "${UPSTREAMDIR}~nozlibcopy"
