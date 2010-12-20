@@ -1,3 +1,11 @@
+velvet (1.0.15~nozlibcopy-2) unstable; urgency=low
+
+  * Fix FTBFS with ld --as-needed (thanks for the patch to
+    Matthias Klose)
+    Closes: #607535
+
+ -- Andreas Tille <tille@debian.org>  Mon, 20 Dec 2010 08:43:16 +0100
+
 velvet (1.0.15~nozlibcopy-1) unstable; urgency=low
 
   * New upstream source
