@@ -1,3 +1,11 @@
+velvet (1.0.18~nozlibcopy-1) unstable; urgency=low
+
+  * New upstream version
+  * debian/get-orig-source: Make sure MD5sum stays the same for different
+    download
+
+ -- Andreas Tille <tille@debian.org>  Wed, 19 Jan 2011 08:48:19 +0100
+
 velvet (1.0.15~nozlibcopy-2) unstable; urgency=low
 
   * Fix FTBFS with ld --as-needed (thanks for the patch to
