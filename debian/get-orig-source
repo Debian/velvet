@@ -16,7 +16,7 @@ mv ../${UPSTREAMDIR}.tgz .
 tar -xzf ${UPSTREAMDIR}.tgz
 rm -rf ${UPSTREAMDIR}/third-party
 
-## Deletue useless binaries once we are changing the original tarball anyway
+## Delete useless binaries once we are changing the original tarball anyway
 # delete precompiled object files
 # rm -f ${UPSTREAMDIR}/obj/*.o
 find ${UPSTREAMDIR} -name "*.o" -exec rm -f \{\} \;
