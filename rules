@@ -14,10 +14,10 @@ clean::
 
 pkg=velvet
 
-DEB_MAKE_BUILD_TARGET = obj velveth velvetg Z_LIB_FILES='' LIBS='-lm -lz' OPT=''
+DEB_MAKE_BUILD_TARGET = obj velveth velvetg LIBS='-lm -lz' OPT=''
 
 build/velvet::
-	make color CFLAGS='$(CFLAGS)' Z_LIB_FILES='' LIBS='-lm -lz' OPT=''
+	make color CFLAGS='$(CFLAGS)' LIBS='-lm -lz' OPT=''
 	mkdir -p $(CURDIR)/debian/$(pkg)/usr/share/man/man1/
 	help2man --no-info --name="simple hashing program" \
 	         $(CURDIR)/velveth > $(CURDIR)/debian/$(pkg)/usr/share/man/man1/velveth.1
