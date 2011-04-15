@@ -2,4 +2,3 @@ include_debians_zlib.patch
 shuffleSequences_fasta.patch
 fix-perl-path.patch
 ld-as-needed.patch
-meta-velvet.patch
