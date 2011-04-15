@@ -1,4 +1,4 @@
-velvet (1.1.02~nozlibcopy-1) UNRELEASED; urgency=low
+velvet (1.1.02~nozlibcopy-1) unstable; urgency=low
 
   * New upstream version
     upgraded patches, tweak $(LIBS) into Z_LIB_FILES variable
@@ -10,6 +10,7 @@ velvet (1.1.02~nozlibcopy-1) UNRELEASED; urgency=low
     tarball anyway it makes sense to remove an outdated copy of
     MetaVelvet and replace it rather by a hint to the currently
     maintained source in README.source
+  * Standards-Version: 3.9.2 (no changes needed)
 
  -- Andreas Tille <tille@debian.org>  Fri, 15 Apr 2011 10:51:16 +0200
 
