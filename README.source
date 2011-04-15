@@ -9,6 +9,16 @@ notices in third-party/zlib-1.2.3.
 
  -- Charles Plessy <plessy@debian.org>  Mon, 25 Jan 2010 13:03:06 +0900
 
+Since version 1.0.2 of velvet the source tarball contains an extra copy
+of a velvet extension called MetaVelvet.  There is a lot of duplicated
+code which was removed from the tarball to simplify the build system of
+the Debian package.  The latest version of MetaVelvet can always be
+downloaded here:
+
+  https://github.com/hacchy/MetaVelvet
+
+ -- Andreas Tille <tille@debian.org>  Fri, 15 Apr 2011 10:51:16 +0200
+
 
 This package uses a patch system.
 ─────────────────────────────────
