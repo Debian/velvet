@@ -1,8 +1,10 @@
-velvet (1.1.05-1ubuntu2) lucid; urgency=low
+velvet (1.1.05-1ubuntu4) lucid; urgency=low
 
+  * Moved from CDBS to DH 
   * New upstream.  Still includes a copy of Zlib but the default
     is now to use the system version, so removed relevant patch.
-  * Modified build to work on unmodified upstream.
+  * Modified build to work on unmodified upstream (still works on
+    pruned upstream).
 
  -- Tim Booth <tbooth@ceh.ac.uk>  Thu, 11 Aug 2011 13:34:46 +0100
 
