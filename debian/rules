@@ -14,7 +14,7 @@ clean::
 
 pkg=velvet
 
-DEB_MAKE_BUILD_TARGET = obj velveth velvetg LIBS='-lm -lz' OPT=''
+DEB_MAKE_BUILD_TARGET = obj velveth velvetg LDFLAGS='-lm -lz' OPT=''
 
 build/velvet::
 	make color CFLAGS='$(CFLAGS)' LIBS='-lm -lz' OPT=''
@@ -29,6 +29,11 @@ build/velvet::
 	help2man --no-info --version-option=" " \
 	         --name="de Bruijn graph construction, error removal and repeat resolution (colorspace version)" \
 	         $(CURDIR)/velvetg_de > $(CURDIR)/debian/$(pkg)/usr/share/man/man1/velvetg_de.1
+
+#If the taball is not being scrubbed we need this.
+binary-install/velvet::
+	find $(CURDIR)/debian/$(pkg) -name '.DS_Store' -exec rm {} \;
+	rm -rf $(CURDIR)/debian/$(pkg)/usr/share/velvet/contrib/MetaVelvet*
 
 get-orig-source:
 	. debian/get-orig-source

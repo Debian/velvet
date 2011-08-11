@@ -1,10 +1,10 @@
 Description: Use the zlib distributed by Debian, not the one in third-party/zlib-1.2.3/.
 Author: Charles Plessy <plessy@debian.org>
 Forwarded: no
---- velvet_1.1.02~nozlibcopy.orig/src/readSet.c
-+++ velvet_1.1.02~nozlibcopy/src/readSet.c
-@@ -33,7 +33,7 @@
- #if defined(_WIN32) || defined(__WIN32__) || defined(WIN32)
+--- a/src/readSet.c
++++ b/src/readSet.c
+@@ -35,7 +35,7 @@
+ #elif defined(_WIN32) || defined(__WIN32__) || defined(WIN32)
  #include "../third-party/zlib-1.2.3/Win32/include/zlib.h"
  #else
 -#include "../third-party/zlib-1.2.3/zlib.h"

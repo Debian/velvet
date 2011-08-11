@@ -1,8 +1,8 @@
 Description: Scripts need to specify interpreter in the first line
 Author: Andreas Tille <tille@debian.org>
 Forwarded: not yet
---- velvet_1.1.02~nozlibcopy.orig/contrib/shuffleSequences_fasta/shuffleSequences_fasta.py
-+++ velvet_1.1.02~nozlibcopy/contrib/shuffleSequences_fasta/shuffleSequences_fasta.py
+--- a/contrib/shuffleSequences_fasta/shuffleSequences_fasta.py
++++ b/contrib/shuffleSequences_fasta/shuffleSequences_fasta.py
 @@ -1,3 +1,4 @@
 +#!/usr/bin/python
  import sys
