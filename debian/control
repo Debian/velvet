@@ -5,7 +5,7 @@ Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.
 DM-Upload-Allowed: yes
 Uploaders: Charles Plessy <plessy@debian.org>,
  Andreas Tille <tille@debian.org>
-Build-Depends: cdbs, debhelper (>= 8), zlib1g-dev, help2man, quilt
+Build-Depends: debhelper (>= 8), zlib1g-dev, help2man, quilt, texlive-latex-base
 Standards-Version: 3.9.2
 Homepage: http://www.ebi.ac.uk/~zerbino/velvet/
 Vcs-Browser: http://svn.debian.org/wsvn/debian-med/trunk/packages/velvet/trunk/?rev=0&sc=0
