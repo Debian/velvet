@@ -23,12 +23,14 @@ find ${UPSTREAMDIR} -name "*.o" -exec rm -f \{\} \;
 # delete .DS_Store files
 find ${UPSTREAMDIR} -name .DS_Store -exec rm -f \{\} \;
 
-# remove separate project which is basically a duplication of velvet code
-# this should be packaged separately with an up to date version
-rm -rf ${UPSTREAMDIR}/contrib/MetaVelvet*
+## remove separate project which is basically a duplication of velvet code
+## this should be packaged separately with an up to date version
+#rm -rf ${UPSTREAMDIR}/contrib/MetaVelvet*
+#  ... don't do this any more
 
 mv ${UPSTREAMDIR} ${UPSTREAMDIR}~nozlibcopy
 
-GZIP="--best --no-name" tar -czf "$PKG"_"$VERSION~nozlibcopy".orig.tar.gz "${UPSTREAMDIR}~nozlibcopy"
+rm -f ../"$PKG"_"$VERSION".orig.tar.gz
+GZIP="--best --no-name" tar -czf ../"$PKG"_"$VERSION~nozlibcopy".orig.tar.gz "${UPSTREAMDIR}~nozlibcopy"
 rm -rf "${UPSTREAMDIR}~nozlibcopy"
 
