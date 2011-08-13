@@ -1,7 +1,7 @@
 Format: http://dep.debian.net/deps/dep5/
 Upstream-Name: Velvet
 Upstream-Contact: Daniel Zerbino <zerbino@ebi.ac.uk>
-Source  :  http://www.ebi.ac.uk/~zerbino/velvet/
+Source: http://www.ebi.ac.uk/~zerbino/velvet/
 
 Files: *
 Copyright: © 2006-2011 Daniel Zerbino <zerbino@ebi.ac.uk>
@@ -9,21 +9,6 @@ Copyright: © 2006-2011 Daniel Zerbino <zerbino@ebi.ac.uk>
            ©   2009    John Marshall <jm18@sanger.ac.uk>
            ©   2009    David Studholme <david.studholme@tsl.ac.uk>
 License: GPL-2+
- Velvet is free software; you can redistribute it and/or modify
- it under the terms of the GNU General Public License as published by
- the Free Software Foundation; either version 2 of the License, or
- (at your option) any later version.
- .
- Velvet is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
- .
- You should have received a copy of the GNU General Public License
- along with Velvet; if not, write to the Free Software
- Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
-Comment: On Debian systems, the complete text of the GNU General Public
- License version 2 can be found in ‘/usr/share/common-licenses/GPL-2’.
 
 Files: src/fibpriv.h
  src/dfib.c
@@ -32,8 +17,7 @@ Files: src/fibpriv.h
  src/dfib.h
  src/dfibpriv.h
 Copyright: © 1997, 1999-2003 John-Mark Gurney.
- All rights reserved.
- .
+License: FreeBSD-like
  Redistribution and use in source and binary forms, with or without
  .
  are met:
@@ -55,7 +39,7 @@ Copyright: © 1997, 1999-2003 John-Mark Gurney.
  OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  SUCH DAMAGE.
 
-Files: contrib/afg_handling/*, contrib/VelvetOptimiser/*
+Files: contrib/afg_handling/* contrib/VelvetOptimiser/*
 Copyright: © 2008,2009 Simon Gladman <simon.gladman@csiro.au>
 License: GPL-2+
 
@@ -63,9 +47,7 @@ Files: contrib/layout/*
 Copyright: © 2008 Paul Harrison (pfh@logarithmic.net)
 License: GPL-2+
 
-Files: contrib/estimate-exp_cov/velvet-estimate-exp_cov.pl,
-       contrib/observed-insert-length.pl/observed-insert-length.pl,
-       contrib/show_repeats/show_repeats.pl
+Files: contrib/estimate-exp_cov/velvet-estimate-exp_cov.pl contrib/observed-insert-length.pl/observed-insert-length.pl contrib/show_repeats/show_repeats.pl
 Copyright: 2009, Torsten Seemann
            2009, Daniel Zerbino
 License: GPL-3+
@@ -88,4 +70,23 @@ Files: debian/*
 Copyright: 2008-2009 Charles Plessy <plessy@debian.org>
            2008-2011 Andreas Tille <tille@debian.org>
            2011 Tim Booth <tbooth@ceh.ac.uk>
-License: Same as velvet
+License: Same
+ The packaging work is licensed under the same terms as Velvet itself.
+
+License: GPL-2+
+ Velvet is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ Velvet is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with Velvet; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+Comment: On Debian systems, the complete text of the GNU General Public
+ License version 2 can be found in ‘/usr/share/common-licenses/GPL-2’.
+
