@@ -41,6 +41,9 @@ override_dh_compress :
 override_dh_pysupport :
 	#Not needed, Python scripts are just for examples
 
+override_dh_builddeb:
+	dh_builddeb -- -Z xz
+
 get-orig-source:
 	. debian/get-orig-source
 

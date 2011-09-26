@@ -9,6 +9,7 @@ velvet (1.1.06~nozlibcopy-1) UNRELEASED; urgency=low
 
   [ Charles Plessy ]
   * Corrected VCS URLs in debian/control.
+  * Compress binary packages with xz (debian/rules).
 
  -- Andreas Tille <tille@debian.org>  Fri, 12 Aug 2011 15:36:22 +0200
 
