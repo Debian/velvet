@@ -1,4 +1,4 @@
-velvet (1.1.06~nozlibcopy-1) UNRELEASED; urgency=low
+velvet (1.1.06~nozlibcopy-1) unstable; urgency=low
 
   [ Andreas Tille ]
   * New upstream version
@@ -12,12 +12,13 @@ velvet (1.1.06~nozlibcopy-1) UNRELEASED; urgency=low
   * Compress source and binary packages with xz
     (debian/rules, debian/get-orig-source).
   * Turn on multithreading with OpenMP (debian/rules).
+  * Remove empty directory contrib/MetaVelvet-v0.3.1/obj (debian/rules).
 
- -- Andreas Tille <tille@debian.org>  Fri, 12 Aug 2011 15:36:22 +0200
+ -- Charles Plessy <plessy@debian.org>  Tue, 27 Sep 2011 15:12:41 +0900
 
 velvet (1.1.05-1ubuntu4) lucid; urgency=low
 
-  * Moved from CDBS to DH 
+  * Moved from CDBS to DH
   * New upstream.  Still includes a copy of Zlib but the default
     is now to use the system version, so removed relevant patch.
   * Modified build to work on unmodified upstream (still works on

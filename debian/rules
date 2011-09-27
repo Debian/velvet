@@ -32,7 +32,7 @@ override_dh_install :
 	dh_install
 	#If the tarball is not being scrubbed we need this.
 	# find $(CURDIR)/debian/$(pkg) -name '.DS_Store' -exec rm {} \;
-	# rm -rf $(CURDIR)/debian/$(pkg)/usr/share/velvet/contrib/MetaVelvet*
+	rmdir $(CURDIR)/debian/$(pkg)/usr/share/velvet/contrib/MetaVelvet-v0.3.1/obj
 
 #Prevent compression of user manual
 override_dh_compress :
