@@ -14,8 +14,8 @@ override_dh_auto_clean :
 
 override_dh_auto_build :
 	touch zlib # prevents the zlib in the ‘third-party’ folder to be built.
-	dh_auto_build
-	dh_auto_build -- color
+	dh_auto_build -- OPENMP=1
+	dh_auto_build -- color OPENMP=1
 
 override_dh_install :
 	mkdir -p $(CURDIR)/debian/$(pkg)/usr/share/man/man1/

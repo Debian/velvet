@@ -11,6 +11,7 @@ velvet (1.1.06~nozlibcopy-1) UNRELEASED; urgency=low
   * Corrected VCS URLs in debian/control.
   * Compress source and binary packages with xz
     (debian/rules, debian/get-orig-source).
+  * Turn on multithreading with OpenMP (debian/rules).
 
  -- Andreas Tille <tille@debian.org>  Fri, 12 Aug 2011 15:36:22 +0200
 
