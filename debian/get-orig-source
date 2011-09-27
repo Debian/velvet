@@ -31,6 +31,6 @@ find ${UPSTREAMDIR} -name .DS_Store -exec rm -f \{\} \;
 mv ${UPSTREAMDIR} ${UPSTREAMDIR}~nozlibcopy
 
 rm -f ../"$PKG"_"$VERSION".orig.tar.gz
-GZIP="--best --no-name" tar -czf ../"$PKG"_"$VERSION~nozlibcopy".orig.tar.gz "${UPSTREAMDIR}~nozlibcopy"
+tar -cJf ../"$PKG"_"$VERSION~nozlibcopy".orig.tar.xz "${UPSTREAMDIR}~nozlibcopy"
 rm -rf "${UPSTREAMDIR}~nozlibcopy"
 
