@@ -1,9 +1,11 @@
-velvet (1.1.06~nozlibcopy-2) UNRELEASED; urgency=low
+velvet (1.1.07~nozlibcopy-1) unstable; urgency=low
 
+  * New upstream release (Closes: #647415).
   * debian/contol:
     - Pre-Depends on dpkg (>= 1.15.6) for Ubuntu LTS.
+    - Removed Multi-Arch: foreign.
 
- -- Charles Plessy <plessy@debian.org>  Fri, 09 Dec 2011 13:47:21 +0900
+ -- Charles Plessy <plessy@debian.org>  Fri, 09 Dec 2011 14:07:58 +0900
 
 velvet (1.1.06~nozlibcopy-1) unstable; urgency=low
 
