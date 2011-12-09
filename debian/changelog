@@ -1,3 +1,10 @@
+velvet (1.1.06~nozlibcopy-2) UNRELEASED; urgency=low
+
+  * debian/contol:
+    - Pre-Depends on dpkg (>= 1.15.6) for Ubuntu LTS.
+
+ -- Charles Plessy <plessy@debian.org>  Fri, 09 Dec 2011 13:47:21 +0900
+
 velvet (1.1.06~nozlibcopy-1) unstable; urgency=low
 
   [ Andreas Tille ]
