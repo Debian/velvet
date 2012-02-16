@@ -1,4 +1,4 @@
-Format: http://dep.debian.net/deps/dep5/
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Velvet
 Upstream-Contact: Daniel Zerbino <zerbino@ebi.ac.uk>
 Source: http://www.ebi.ac.uk/~zerbino/velvet/velvet_1.2.03.tgz
