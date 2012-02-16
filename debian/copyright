@@ -1,13 +1,16 @@
 Format: http://dep.debian.net/deps/dep5/
 Upstream-Name: Velvet
 Upstream-Contact: Daniel Zerbino <zerbino@ebi.ac.uk>
-Source: http://www.ebi.ac.uk/~zerbino/velvet/
+Source: http://www.ebi.ac.uk/~zerbino/velvet/velvet_1.2.03.tgz
+ Upstream sources are modified by removing the “third-party” directory,
+ which contains a convenience copy of the Zlib.
 
 Files: *
 Copyright: © 2006-2011 Daniel Zerbino <zerbino@ebi.ac.uk>
            © 2000-2005 Guy St.C. Slater <guy@ebi.ac.uk>
            ©   2009    John Marshall <jm18@sanger.ac.uk>
            ©   2009    David Studholme <david.studholme@tsl.ac.uk>
+           ©   2011    Convey Computer Corporation (info@conveycomputer.com)
 License: GPL-2+
 
 Files: src/fibpriv.h
