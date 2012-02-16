@@ -12,3 +12,16 @@ Forwarded: no
  #endif
  
  #if defined(MSDOS) || defined(OS2) || defined(WIN32) || defined(__CYGWIN__)
+Index: velvet-1.2.03~nozlibcopy/src/binarySequences.c
+===================================================================
+--- velvet-1.2.03~nozlibcopy.orig/src/binarySequences.c	2012-02-16 13:27:43.832843704 +0900
++++ velvet-1.2.03~nozlibcopy/src/binarySequences.c	2012-02-16 13:28:04.176843708 +0900
+@@ -34,7 +34,7 @@
+ #if defined(_WIN32) || defined(__WIN32__) || defined(WIN32)
+ #include "../third-party/zlib-1.2.3/Win32/include/zlib.h"
+ #else
+-#include "../third-party/zlib-1.2.3/zlib.h"
++#include <zlib.h>
+ #endif
+ 
+ #if defined(MSDOS) || defined(OS2) || defined(WIN32) || defined(__CYGWIN__)
