@@ -5,7 +5,8 @@ Name: Velvet
 Reference-PMID: 18349386
 Reference:
   author: Zerbino, Daniel R. and Birney, Ewan
-  title: Velvet: Algorithms for de novo short read assembly using de Bruijn graphs
+  title: >
+    Velvet: Algorithms for de novo short read assembly using de Bruijn graphs
   journal: Genome Research
   volume: 18
   number: 5
