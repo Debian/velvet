@@ -4,6 +4,11 @@ Upstream-Contact: Daniel Zerbino <zerbino@ebi.ac.uk>
 Source: http://www.ebi.ac.uk/~zerbino/velvet/velvet_1.2.03.tgz
  Upstream sources are modified by removing the “third-party” directory,
  which contains a convenience copy of the Zlib.
+Files-Excluded:
+    third-party
+    *.o
+    .DS_Store
+    debian
 
 Files: *
 Copyright: © 2006-2011 Daniel Zerbino <zerbino@ebi.ac.uk>
