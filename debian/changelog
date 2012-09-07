@@ -9,6 +9,9 @@ velvet (1.2.07+dfsg-1) UNRELEASED; urgency=low
      - no explicit quilt Build-Depends (also removed from rules)
   * debian/copyright:
     Add Files-Excluded to document what was removed from original source
+  * rename debian/{docs,install} to debian/velvet.{docs,install} which
+    is more safe in the case of multibinary package
+  * debian/velvet.install: shuffle* files are in contrib directory now
 
  -- Andreas Tille <tille@debian.org>  Fri, 07 Sep 2012 14:00:49 +0200
 
