@@ -6,6 +6,7 @@ velvet (1.2.07+dfsg-1) UNRELEASED; urgency=low
     source
   * debian/control:
      - Standards-Version: 3.9.3 (no changes needed)
+     - no explicit quilt Build-Depends (also removed from rules)
   * debian/copyright:
     Add Files-Excluded to document what was removed from original source
 
