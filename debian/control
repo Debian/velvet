@@ -14,8 +14,7 @@ Vcs-Svn: svn://svn.debian.org/debian-med/trunk/packages/velvet/trunk/
 Package: velvet
 Architecture: any
 Pre-Depends: dpkg (>= 1.15.6)
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Recommends: python
+Depends: ${shlibs:Depends}, ${misc:Depends}, python
 Suggests: velvet-example
 Description: Nucleic acid sequence assembler for very short reads
  Velvet is a de novo genomic assembler specially designed for short read

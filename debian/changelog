@@ -7,6 +7,8 @@ velvet (1.2.07+dfsg-1) UNRELEASED; urgency=low
   * debian/control:
      - Standards-Version: 3.9.3 (no changes needed)
      - no explicit quilt Build-Depends (also removed from rules)
+     - bumped python from Recommends to Depends because there are
+       Python scripts installed in velvet/contrib
   * debian/copyright:
     Add Files-Excluded to document what was removed from original source
   * rename debian/{docs,install} to debian/velvet.{docs,install} which
