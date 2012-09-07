@@ -9,6 +9,7 @@ Files-Excluded:
     *.o
     .DS_Store
     debian
+    contrib/MetaVelvet-1.2.01/ISGraph/*.a
 
 Files: *
 Copyright: © 2006-2011 Daniel Zerbino <zerbino@ebi.ac.uk>
