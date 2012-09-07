@@ -1,4 +1,3 @@
 version=3
-opts=dversionmangle=s/~nozlibcopy// \
+opts=dversionmangle=s/([~+]dfsg|~nozlibcopy)// \
   http://www.ebi.ac.uk/~zerbino/velvet/velvet_([.\d]*).tgz
-

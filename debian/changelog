@@ -1,3 +1,10 @@
+velvet (1.2.07+dfsg-1) UNRELEASED; urgency=low
+
+  * New upstream version
+  * debian/watch: cope with +dfsg suffix (in addition to old ~nozlibcopy)
+
+ -- Andreas Tille <tille@debian.org>  Fri, 07 Sep 2012 14:00:49 +0200
+
 velvet (1.2.03~nozlibcopy-1) unstable; urgency=low
 
   * New upstream release.
