@@ -6,7 +6,7 @@ DM-Upload-Allowed: yes
 Uploaders: Charles Plessy <plessy@debian.org>,
  Andreas Tille <tille@debian.org>
 Build-Depends: debhelper (>= 8), zlib1g-dev, help2man, quilt, texlive-latex-base
-Standards-Version: 3.9.2
+Standards-Version: 3.9.3
 Homepage: http://www.ebi.ac.uk/~zerbino/velvet/
 Vcs-Browser: http://svn.debian.org/wsvn/debian-med/trunk/packages/velvet/trunk/
 Vcs-Svn: svn://svn.debian.org/debian-med/trunk/packages/velvet/trunk/
