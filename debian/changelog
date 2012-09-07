@@ -2,6 +2,8 @@ velvet (1.2.07+dfsg-1) UNRELEASED; urgency=low
 
   * New upstream version
   * debian/watch: cope with +dfsg suffix (in addition to old ~nozlibcopy)
+  * debian/get-orig-source: Enable simple changing of suffix for repackaged
+    source
 
  -- Andreas Tille <tille@debian.org>  Fri, 07 Sep 2012 14:00:49 +0200
 

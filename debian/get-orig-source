@@ -28,9 +28,9 @@ find ${UPSTREAMDIR} -name .DS_Store -exec rm -f \{\} \;
 #rm -rf ${UPSTREAMDIR}/contrib/MetaVelvet*
 #  ... don't do this any more
 
-mv ${UPSTREAMDIR} ${UPSTREAMDIR}~nozlibcopy
+SUFFIX="+dfsg"
+mv ${UPSTREAMDIR} ${UPSTREAMDIR}${SUFFIX}
 
 rm -f ../"$PKG"_"$VERSION".orig.tar.gz
-tar -cJf ../"$PKG"_"$VERSION~nozlibcopy".orig.tar.xz "${UPSTREAMDIR}~nozlibcopy"
-rm -rf "${UPSTREAMDIR}~nozlibcopy"
-
+tar -cJf ../"$PKG"_"$VERSION~nozlibcopy".orig.tar.xz "${UPSTREAMDIR}${SUFFIX}"
+rm -rf "${UPSTREAMDIR}${SUFFIX}"
